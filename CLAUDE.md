@@ -15,11 +15,12 @@ npm run lint       # ESLint check
 
 ## Architecture
 
-Dark, immersive photography portfolio for landscape photographer Jason. Next.js 16 App Router with three routes:
+Dark, immersive photography portfolio for landscape photographer Jason. Next.js 16 App Router with four routes:
 
 - `/` — Full-screen hero image + featured works (photos with `featured: true`)
 - `/gallery` — Category-filterable photo grid with full-screen lightbox viewer
-- `/about` — Photographer bio and contact
+- `/about` — Photographer bio and contact info
+- `/contact` — Services overview (commercial licensing, fine art prints) and contact info
 
 **Data layer:** All photo metadata lives in `src/data/photos.ts` as a static TypeScript array. Categories: mountains, ocean, forest, starscape, sunset. To add photos: place files in `public/photos/`, add entries to the `photos` array.
 

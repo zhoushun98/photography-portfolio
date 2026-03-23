@@ -8,6 +8,7 @@ const navLinks = [
   { href: "/", label: "首页" },
   { href: "/gallery", label: "作品集" },
   { href: "/about", label: "关于我" },
+  { href: "/contact", label: "合作咨询" },
 ];
 
 export function Navbar() {
